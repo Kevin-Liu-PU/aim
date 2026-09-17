@@ -8,4 +8,6 @@ Edit `team-data.js` to update assignments, the Drive link, or member details. Ea
 
 Commit changes to `main` to publish them automatically with GitHub Pages. Pages serves the repository root. No installation or build step is required; `.nojekyll` keeps the files as plain static assets.
 
+The stylesheet and script URLs in `index.html` include `?v=` version parameters to prevent browsers from mixing new pages with cached older content. If you edit an asset directly in this repository, also change its version parameter in `index.html`. The local authoring workspace automates this with `node scripts/prepare-pages.cjs` before copying and publishing the files.
+
 `index.html` contains the page structure, `styles.css` controls appearance, and `app.js` renders the content. All asset URLs are relative so the site works under `/aim/`.

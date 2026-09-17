@@ -26,6 +26,7 @@ td { white-space: pre-wrap; }
 .sidebar { display: grid; gap: 24px; padding-top: 39px; }
 .resource-panel { background: #fff; padding: 22px; border: 1px solid #d7d7d7; border-top: 3px solid #cfb991; }
 .resource-panel h2 { margin-bottom: 14px; }
+.drive-instructions { margin: 0 0 16px; font-size: 1rem; color: #444; }
 .empty-state { margin: 0; color: #666; font-size: .9375rem; }
 .drive-link { display: inline-block; padding: 9px 13px; border: 1px solid #9b804c; background: #f7f3eb; color: #332c1e; font-weight: 600; border-radius: 3px; text-decoration: none; }
 .drive-link:hover { background: #eee5d3; }

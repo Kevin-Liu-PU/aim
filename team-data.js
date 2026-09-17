@@ -1,7 +1,7 @@
 // Team content: edit this file, then republish the site for everyone to see it.
 // An empty string means not posted yet; null leaves the cell blank. Use \n for a new line.
 window.TEAM_DATA = {
-  teamName: "Robot Cello & Glockenspiel",
+  teamName: "Robot Cello & Glockenspiel (Fall 2026)",
   driveUrl: "https://drive.google.com/drive/folders/1L7b-IH2Cv9TUekO77CvVsS_0tNS1_iG8?usp=sharing",
   // Preserve both contact addresses; leave an unknown email empty.
   members: [

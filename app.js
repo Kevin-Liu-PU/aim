@@ -2,7 +2,7 @@
 
 const data = window.TEAM_DATA || {};
 const teamName = typeof data.teamName === "string" && data.teamName.trim()
-  ? data.teamName.trim() : "Robot Cello & Glockenspiel";
+  ? data.teamName.trim() : "Robot Cello & Glockenspiel (Fall 2026)";
 document.getElementById("team-name").textContent = teamName;
 document.title = `Purdue AIM · ${teamName}`;
 

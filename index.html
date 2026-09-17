@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Purdue AIM · Robot Cello & Glockenspiel</title>
+  <meta name="description" content="Weekly assignments, shared Google Drive, and member contacts for the Purdue AIM Robot Cello and Glockenspiel team.">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%231c1c1c'/%3E%3Ctext x='16' y='23' font-family='Arial,sans-serif' font-weight='700' font-size='21' text-anchor='middle' fill='%23cfb991'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./team-data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#assignments">Skip to assignments</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">PURDUE · AIM</p>
+        <h1 id="team-name">Robot Cello &amp; Glockenspiel</h1>
+      </div>
+      <nav aria-label="Page sections">
+        <a href="#assignments">Assignments</a>
+        <a href="#shared-drive">Google Drive</a>
+        <a href="#members">Members</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    <section id="assignments" aria-labelledby="assignments-title">
+      <div class="section-heading">
+        <h2 id="assignments-title">Weekly assignments</h2>
+        <span class="term-label">Weeks 1–16</span>
+      </div>
+      <table class="assignment-table">
+        <caption class="sr-only">Robot Cello and Glockenspiel assignments for weeks 1 through 16</caption>
+        <thead><tr><th scope="col">Week</th><th scope="col">Robot Cello</th><th scope="col">Glockenspiel</th></tr></thead>
+        <tbody id="assignment-rows"></tbody>
+      </table>
+      <noscript><p>Enable JavaScript to view the weekly assignments and team contacts.</p></noscript>
+    </section>
+    <aside class="sidebar" aria-label="Team resources">
+      <section id="shared-drive" class="resource-panel" aria-labelledby="drive-title">
+        <h2 id="drive-title">Shared Google Drive</h2>
+        <div id="drive-content"><p class="empty-state">Drive link coming soon.</p></div>
+      </section>
+      <section id="members" class="resource-panel" aria-labelledby="members-title">
+        <h2 id="members-title">Team members</h2>
+        <div id="member-content"><p class="empty-state">Member names and emails will be added here.</p></div>
+      </section>
+    </aside>
+  </main>
+</body>
+</html>

@@ -1,5 +1,6 @@
 // Team content: edit this file, then republish the site for everyone to see it.
 // An empty string means not posted yet; null leaves the cell blank. Use \n for a new line.
+// For a linked assignment, use { text: "Assignment (PDF)", url: "./assignments/...pdf" }.
 window.TEAM_DATA = {
   teamName: "Robot Cello & Glockenspiel (Fall 2026)",
   driveUrl: "https://drive.google.com/drive/folders/1L7b-IH2Cv9TUekO77CvVsS_0tNS1_iG8?usp=sharing",
@@ -21,7 +22,7 @@ window.TEAM_DATA = {
     { week: 2, robotCello: null, glockenspiel: null },
     { week: 3, robotCello: null, glockenspiel: null },
     { week: 4, robotCello: "Research the classifier and present your findings.", glockenspiel: "" },
-    { week: 5, robotCello: "To be announced", glockenspiel: "To be announced" },
+    { week: 5, robotCello: { text: "Multimodal Assignment (PDF)", url: "./assignments/week-5/VIP_Multimodal_Assignment.pdf" }, glockenspiel: "To be announced" },
     { week: 6, robotCello: "", glockenspiel: "" },
     { week: 7, robotCello: "", glockenspiel: "" },
     { week: 8, robotCello: "", glockenspiel: "" },

@@ -17,9 +17,24 @@ for (let week = 1; week <= 16; week++) {
   row.append(label);
   for (const [key, name] of [["robotCello", "Robot Cello"], ["glockenspiel", "Glockenspiel"]]) {
     const cell = document.createElement("td");
-    const content = typeof assignment[key] === "string" ? assignment[key].trim() : "";
+    const entry = assignment[key];
+    const content = typeof entry === "string" ? entry.trim()
+      : typeof entry?.text === "string" ? entry.text.trim() : "";
     cell.dataset.project = name;
-    cell.textContent = assignment[key] === null ? "" : content || "Not posted yet";
+    cell.textContent = entry === null ? "" : content || "Not posted yet";
+    if (content && typeof entry?.url === "string") {
+      try {
+        const url = new URL(entry.url, document.baseURI);
+        if (["https:", "http:", "file:"].includes(url.protocol)) {
+          const link = document.createElement("a");
+          link.href = url.href;
+          link.textContent = content;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          cell.replaceChildren(link);
+        }
+      } catch { /* Keep the assignment text if its attachment URL is invalid. */ }
+    }
     if (!content) cell.className = "pending";
     row.append(cell);
   }

@@ -1,6 +1,6 @@
 # Purdue AIM team page
 
-Weekly assignments for Robot Cello and Glockenspiel, a shared Google Drive link, and team member contacts.
+Weekly assignments for Robotic Cellist and Glockenspiel, a shared Google Drive link, and team member contacts.
 
 ## Update the page
 

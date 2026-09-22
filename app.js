@@ -2,7 +2,7 @@
 
 const data = window.TEAM_DATA || {};
 const teamName = typeof data.teamName === "string" && data.teamName.trim()
-  ? data.teamName.trim() : "Robot Cello & Glockenspiel (Fall 2026)";
+  ? data.teamName.trim() : "Robotic Cellist & Glockenspiel (Fall 2026)";
 document.getElementById("team-name").textContent = teamName;
 document.title = `Purdue AIM · ${teamName}`;
 
@@ -15,7 +15,7 @@ for (let week = 1; week <= 16; week++) {
   label.scope = "row";
   label.textContent = `Week ${week}`;
   row.append(label);
-  for (const [key, name] of [["robotCello", "Robot Cello"], ["glockenspiel", "Glockenspiel"]]) {
+  for (const [key, name] of [["robotCello", "Robotic Cellist"], ["glockenspiel", "Glockenspiel"]]) {
     const cell = document.createElement("td");
     const entry = assignment[key];
     const content = typeof entry === "string" ? entry.trim()

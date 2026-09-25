@@ -23,7 +23,7 @@ window.TEAM_DATA = {
     { week: 3, robotCello: null, glockenspiel: null },
     { week: 4, robotCello: "Research the classifier and present your findings.", glockenspiel: "" },
     { week: 5, robotCello: { text: "Multimodal Assignment (PDF)", url: "./assignments/week-5/VIP_Multimodal_Assignment.pdf" }, glockenspiel: "To be announced" },
-    { week: 6, robotCello: "", glockenspiel: "" },
+    { week: 6, robotCello: { text: "Multimodal Policy Design (PDF)\nDue September 29, 2026", url: "./assignments/week-6/AIM_Robotic_Cellist_Week6_Multimodal_Policy_Assignment.pdf" }, glockenspiel: "" },
     { week: 7, robotCello: "", glockenspiel: "" },
     { week: 8, robotCello: "", glockenspiel: "" },
     { week: 9, robotCello: "", glockenspiel: "" },

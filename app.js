@@ -68,7 +68,7 @@ if (members.length) {
     name.className = "member-name";
     name.textContent = memberName;
     item.append(name);
-    for (const [label, address] of [["Gmail", member.gmail], ["Purdue", member.purdueEmail]]) {
+    for (const [label, address] of [["Purdue", member.purdueEmail]]) {
       const row = document.createElement("div");
       row.className = "member-email-row";
       const caption = document.createElement("span");

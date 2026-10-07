@@ -10,7 +10,7 @@ window.TEAM_DATA = {
     { name: "Bryan Zhang", team: "Robotic Cellist", purdueEmail: "zhan5953@purdue.edu" },
     { name: "Arvind Shyam", team: "Robotic Cellist", purdueEmail: "ashyam@purdue.edu" },
     { name: "Sruthika Shivakumar", team: "Robotic Cellist", purdueEmail: "shivaks@purdue.edu" },
-    { name: "Rohan R Pradhan", team: "Robotic Cellist", purdueEmail: "" },
+    { name: "Rohan R Pradhan", team: "Robotic Cellist", purdueEmail: "pradha33@purdue.edu" },
     { name: "Claire Liu", team: "Glockenspiel", purdueEmail: "liu4604@purdue.edu" },
     { name: "Jiashu Liu", team: "Glockenspiel", purdueEmail: "liu3432@purdue.edu" },
     { name: "Jiya Dhiman", team: "Glockenspiel", purdueEmail: "jdhiman@purdue.edu" },

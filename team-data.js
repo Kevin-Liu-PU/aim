@@ -6,16 +6,16 @@ window.TEAM_DATA = {
   driveUrl: "https://drive.google.com/drive/folders/1L7b-IH2Cv9TUekO77CvVsS_0tNS1_iG8?usp=sharing",
   // Preserve both contact addresses; leave an unknown email empty.
   members: [
-    { name: "Zixian Liu", team: "Robotic Cellist", gmail: "liuzixian511@gmail.com", purdueEmail: "liu3866@purdue.edu" },
-    { name: "Bryan Zhang", team: "Robotic Cellist", gmail: "bryanzh123@gmail.com", purdueEmail: "zhan5953@purdue.edu" },
-    { name: "Arvind Shyam", team: "Robotic Cellist", gmail: "arvind.i.shyam@gmail.com", purdueEmail: "ashyam@purdue.edu" },
-    { name: "Sruthika Shivakumar", team: "Robotic Cellist", gmail: "sruthika.academics@gmail.com", purdueEmail: "shivaks@purdue.edu" },
-    { name: "Rohan R Pradhan", team: "Robotic Cellist", gmail: "roprad3@gmail.com", purdueEmail: "" },
-    { name: "Claire Liu", team: "Glockenspiel", gmail: "liu.claire08@gmail.com", purdueEmail: "liu4604@purdue.edu" },
-    { name: "Jiashu Liu", team: "Glockenspiel", gmail: "six9.tree@gmail.com", purdueEmail: "liu3432@purdue.edu" },
-    { name: "Jiya Dhiman", team: "Glockenspiel", gmail: "jiyadhiman07@gmail.com", purdueEmail: "jdhiman@purdue.edu" },
-    { name: "Jerry Lou", team: "Glockenspiel", gmail: "jlou048@gmail.com", purdueEmail: "lou70@purdue.edu" },
-    { name: "Saif Zagha", team: "Glockenspiel", gmail: "saifzagha2@gmail.com", purdueEmail: "zagha@purdue.edu" }
+    { name: "Zixian Liu", team: "Robotic Cellist", gmail: "", purdueEmail: "liu3866@purdue.edu" },
+    { name: "Bryan Zhang", team: "Robotic Cellist", gmail: "", purdueEmail: "zhan5953@purdue.edu" },
+    { name: "Arvind Shyam", team: "Robotic Cellist", gmail: "", purdueEmail: "ashyam@purdue.edu" },
+    { name: "Sruthika Shivakumar", team: "Robotic Cellist", gmail: "", purdueEmail: "shivaks@purdue.edu" },
+    { name: "Rohan R Pradhan", team: "Robotic Cellist", gmail: "", purdueEmail: "" },
+    { name: "Claire Liu", team: "Glockenspiel", gmail: "", purdueEmail: "liu4604@purdue.edu" },
+    { name: "Jiashu Liu", team: "Glockenspiel", gmail: "", purdueEmail: "liu3432@purdue.edu" },
+    { name: "Jiya Dhiman", team: "Glockenspiel", gmail: "", purdueEmail: "jdhiman@purdue.edu" },
+    { name: "Jerry Lou", team: "Glockenspiel", gmail: "", purdueEmail: "lou70@purdue.edu" },
+    { name: "Saif Zagha", team: "Glockenspiel", gmail: "", purdueEmail: "zagha@purdue.edu" }
   ],
   weeks: [
     { week: 1, robotCello: null, glockenspiel: null },
